@@ -1,32 +1,37 @@
-# Permalinks
-permalink:           pretty
+permalink: /blog/:year/:month/:title.html 
+include: ['.htaccess']
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "CNAME", "Gemfile", "Gemfile.lock"]
+markdown: kramdown
+highlights: pygments
+url: 
+cdn_url: 7u2t01.com1.z0.glb.clouddn.com
+lsi: false
+safe: true
+timezone: Asia/Shanghai
+auto: false 
 
-# Setup
-title:               Poole
-tagline:             The Jekyll Butler
-url:                 http://getpoole.com
-paginate:            1
-baseurl:             ""
+paginate: 8
+paginate_path: "page:num"
 
-# Assets
-#
-# We specify the directory for Jekyll so we can use @imports.
-sass:
-  sass_dir:          _sass
-  style:            :compressed
+kramdown:
+  auto_ids: true,
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
 
-# About/contact
-author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+JB :
+  IMAGE_PATH : http://coolshell.info/images
 
-# Custom vars
-version:             2.0.0
-github:
-  repo:              https://github.com/poole/poole
+# presonal config
+domain: http://coolshell.info
+title: 一点点
+description: 每天进步一点点
+author: Fenger
+email: yfwang2012@gmail.com
+github: opNR
 
-# Gems
-gems:
-  - jekyll-paginate
-  - jekyll-gist
+config:
+  js_dir:
+  img_dir:
+  css_dir:

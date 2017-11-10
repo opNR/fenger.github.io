@@ -1,30 +1,29 @@
 ---
-layout: page
-title: About
+layout: default
+title: "关于：About"
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
+## 个人简介：
+
+* 王艳峰
+* JAVA开发
+* 来自河南 现居上海
+
+## 联系方式
+
+<p class="contact">
+ 	<a href="https://www.zhihu.com/people/wang-yan-feng-89" title="知乎联系我"><img src="http://www.zhihu.com/favicon.ico" width="24" 		height="24" style="display:inline-block;vertical-align:middle"></a><br/>
+ 	<a href="https://github.com/opNR" title="Github联系我"><img src="http://www.github.com/favicon.ico" width="24" height="24" 		style="display:inline-block;vertical-align:middle"></a><br/>
+邮箱: yfwang2012@gmail.com 
 </p>
 
-In the novel, *The Strange Case of Dr. Jekyll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+### 关于本站：
 
-There are currently two themes built on Poole:
+* 搭建于[Github](https://github.com/LippiOuYang/LippiOuYang.github.io),非常感谢！
+<!-- * 模板及样式来源[Useful Paradigm](http://usefulparadigm.com/)
+* 折腾开始于2014年6月1日，基本在2014年6月15日完工。 --> 
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
-
-Learn more and contribute on [GitHub](https://github.com/poole).
-
-## Setup
-
-Some fun facts about the setup of this project include:
-
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
+<!-- ## 其他流言
+* 未**女昏**人士；
+* 阿森纳球迷；
+* 实况足球忠实粉丝； -->
